@@ -5,17 +5,21 @@ int i;
 
 void main()
 {
-    strcpy(isim,"ahmet");
-    printf("%s\n",isim);
+    strcpy(isim, "Attila");
+    printf("%s\n", isim);
 
-    for ( i = 0; isim[i]!= '\0' ; i++)
+    // Stringler karakter dizileri olduğu için harf harf erişmek mümkündür.
+    for (i = 0; isim[i] != '\0'; i++)
     {
-        printf("%c",isim[i]);
+        printf("%c", isim[i]);
     }
-    printf("\nisim uzunlugu %d \n",strlen(isim));
-    for ( i = 0; i <strlen(isim) ; i++)
+
+    // strlen fonksiyonu dizi sonu karakterine '\0' kadar olan elemanları sayar
+    // strlen(isim) fonksiyonu 6 değerini döndürür  
+    printf("\nisim uzunlugu %d \n", strlen(isim));
+    for (i = 0; i < strlen(isim); i++)
     {
-        printf("%c",isim[i]);
+        printf("%c", isim[i]);
     }
-    
+    printf("%d",strlen(isim));
 }

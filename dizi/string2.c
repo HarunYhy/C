@@ -4,7 +4,8 @@
 char isim[10];
 
 void main()
-{
-    strcpy(isim,"ahmet");
+{ 
+    //Strcpty fonksiyonuyla karakter dizisine değer atanabilir
+    strcpy(isim,"Mete");
     printf("%s",isim);
 }
