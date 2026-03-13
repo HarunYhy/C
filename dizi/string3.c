@@ -6,7 +6,7 @@ char *isim;
 void main()
 {
     isim="Melihşah";
-    // "ahmet" metninin başlangıç adresi 'isim' değişkenine atanır
+    // "Melikşah" metninin başlangıç adresi 'isim' değişkenine atanır
     
     printf("%s",isim);
 }
