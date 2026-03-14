@@ -19,7 +19,7 @@ void main()
 }
 /*
 #include <stdio.h>
-#define n 5
+#define n 6
 int a[5]={8,3,7,11,-2};
 void main()
 {
