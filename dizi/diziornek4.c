@@ -1,11 +1,12 @@
 // İki diziyi toplayıp üçüncü başka bir diziye kaydeder
 #include <stdio.h>
 #define N 5
+
+void dizisayar(int *x);
 int a[N] = {4, 6, 2, 78, 15};
 int b[N] = {3, 65, 48, 5, 12};
 int c[N];
 
-int dizisayar(int *x);
 void main()
 {
 
@@ -18,7 +19,7 @@ void main()
    dizisayar(c);
 }
 
-int dizisayar(int *x)
+void dizisayar(int *x)
 {
    printf("{");
    for (size_t i = 0; i < N; i++)

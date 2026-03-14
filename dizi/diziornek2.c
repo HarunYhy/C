@@ -15,9 +15,8 @@ void main()
            //printf("%d\t",a[i]);
         }
         */
-       sayac+=(a[i]<b);            //yukarıda yorum satırı içine alınmış kodlarla aynı görevi yerine getirir
+       sayac+=(a[i]<b);    //yukarıda yorum satırı içine alınmış kodlarla aynı görevi yerine getirir
     }
-    
     
     printf("\n%d tane sayi var",sayac);
 }

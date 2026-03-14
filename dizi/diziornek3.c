@@ -1,24 +1,21 @@
 //N elamanlı bir dizide en büyük ve en küçük elamanı bulan program
 #include <stdio.h>
 #define N 5
+
 int a[N]={4,6,2,78,15};
 int buyuk, ufak;
+
 void main()
 {
    ufak=a[0];
    buyuk=a[0];
+
    for (int i = 1; i < N; i++)
-   {
       if (a[i]>buyuk)
-      {
          buyuk=a[i];
-      }
+         
       else if (a[i]<ufak)
-      {
          ufak=a[i];
-      }
-      
-   }
 
    printf("En kücük %d \nEn büyük %d", ufak, buyuk);
 }
