@@ -1,4 +1,4 @@
-// İki diziyi toplayıp üçüncü başka bir diziye ataan programı yazıver
+// İki diziyi toplayıp üçüncü başka bir diziye kaydeder
 #include <stdio.h>
 #define N 5
 int a[N] = {4, 6, 2, 78, 15};
