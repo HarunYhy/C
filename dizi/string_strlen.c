@@ -14,8 +14,8 @@ void main()
         printf("%c", isim[i]);
     }
 
-    // strlen fonksiyonu dizi sonu karakterine '\0' kadar olan elemanları sayar
-    // strlen(isim) fonksiyonu 6 değerini döndürür  
+    // strlen fonksiyonu dizi sonu karakterine '\0' kadar olan elemanları sayar.
+    // strlen(isim) fonksiyonu 6 değerini döndürür.  
     printf("\nisim uzunlugu %d \n", strlen(isim));
     for (i = 0; i < strlen(isim); i++)
     {
