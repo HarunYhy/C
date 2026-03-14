@@ -22,7 +22,7 @@ void main()
 }
 
 // Böylece main fonksiyonu en üstte yardımcı fonksiyonlar da allta durur 
-// Kodların karmaşını azaltır 
+// Kodların karmaşını azaltır.
 int topla (int a,int b){
     return a+b;
 }
