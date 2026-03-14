@@ -1,0 +1,27 @@
+// İki diziyi toplayıp üçüncü başka bir diziye ataan programı yazıver
+#include <stdio.h>
+#define N 5
+int a[N] = {4, 6, 2, 78, 15};
+int b[N] = {3, 65, 48, 5, 12};
+int c[N];
+
+int dizisayar(int *x);
+void main()
+{
+
+   for (int i = 0; i < N; i++)
+      c[i] = a[i] + b[i];
+   printf("toplanan diziler\n");
+   dizisayar(a);
+   dizisayar(b);
+   printf("bu işlemden elde ettiğimiz dizi\n\n");
+   dizisayar(c);
+}
+
+int dizisayar(int *x)
+{
+   printf("{");
+   for (size_t i = 0; i < N; i++)
+      printf("%d,", x[i]);
+   printf("}\n");
+}
