@@ -9,8 +9,7 @@ void main()
     else                    değilse blok 1 atlanır ve blok 2 çalıştırılır
     {
         blok 2
-    }
-     */
+    }  */
 
     int a = 5, b = 10;
 

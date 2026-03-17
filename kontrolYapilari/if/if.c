@@ -6,8 +6,7 @@ void main()
     /* if (koşul)
     {                   genel yapısı bu şekildedir. parantez içindeki koşul sağlanırsa
         blok            aşağısındaki blok çalışır sağlanmazsa blok atlanıp program devam eder.
-    }
-    */
+    }  */
 
     int a = 1, b = 2;
 
